@@ -3,7 +3,9 @@
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,Claude
-# 域名后缀匹配
+
+# OpenAI / ChatGPT 主域名及常用依赖
+# DOMAIN-SUFFIX 会同时匹配对应域名及其子域名
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,auth0.com
@@ -19,8 +21,25 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
+
+# OpenAI 官方网络清单中尚未被上方主域名规则覆盖的依赖
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,cdn.openaimerge.com
+DOMAIN-SUFFIX,cdn.workos.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,forwarder.workos.com
+DOMAIN-SUFFIX,humb.apple.com
+DOMAIN-SUFFIX,images.workoscdn.com
+DOMAIN-SUFFIX,rum.browser-intake-datadoghq.com
+DOMAIN-SUFFIX,setup.workos.com
+DOMAIN-SUFFIX,workos.imgix.net
+
+# Google Gemini / Bard
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,makersuite.google.com
+
+# Anthropic Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
