@@ -1,6 +1,18 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
 # MyList
+# Steam 游戏下载直连（必须排在 Steam 商店代理规则之前）
+DOMAIN,edge.steam-dns.top.comcast.net
+DOMAIN,steam.eca.qtlglb.com
+DOMAIN,steam.naeu.qtlglb.com
+DOMAIN,steam.ru.qtlglb.com
+DOMAIN,steampipe-kr.akamaized.net
+DOMAIN,steampipe-partner.akamaized.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamserver.net
+
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
