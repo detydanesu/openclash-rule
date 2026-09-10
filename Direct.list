@@ -21,7 +21,6 @@ DOMAIN-SUFFIX,hao123.com
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,icloud
-DOMAIN_KEYWORD,deepseek
 
 
 # IP段匹配
