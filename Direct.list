@@ -13,7 +13,7 @@ DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamserver.net
 # deepseekapi
-DOMAIN,api.deepseek.net
+DOMAIN,api.deepseek.com
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
